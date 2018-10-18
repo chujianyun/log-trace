@@ -40,11 +40,13 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.7.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.18" />
           <element id="library" level="project" name="Maven: cn.hutool:hutool-all:4.0.5" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:1.5.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.13" />
         </element>
       </element>
       <element id="directory" name="META-INF">
