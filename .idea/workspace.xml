@@ -6,14 +6,68 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faa12e92-462f-4043-8cb8-1b052f05b72f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/DaoLogAspect.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/ServiceLogAspect.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/WebLogAspect.java" />
+    <list default="true" id="faa12e92-462f-4043-8cb8-1b052f05b72f" name="Default" comment="添加aop切面">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_9_RELEASE.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/trace-demo/pom.xml" afterPath="$PROJECT_DIR$/trace-demo/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/trace-demo/src/main/resources/logback.xml" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/classes/com/xiao/IndexMain.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/classes/com/xiao/init/ServletInitializer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/classes/com/xiao/interceptor/InterceptorConfiguration.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/classes/com/xiao/interceptor/LoginInterceptor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/classes/com/xiao/utils/IdGen$IdGenHolder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/classes/com/xiao/utils/IdGen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/classes/com/xiao/web/HelloWorldController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/classes/logback.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/META-INF/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/classes/com/xiao/IndexMain.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/classes/com/xiao/init/ServletInitializer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/classes/com/xiao/interceptor/InterceptorConfiguration.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/classes/com/xiao/interceptor/LoginInterceptor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/classes/com/xiao/utils/IdGen$IdGenHolder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/classes/com/xiao/utils/IdGen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/classes/com/xiao/web/HelloWorldController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/classes/logback.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/classmate-1.3.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/hibernate-validator-6.0.10.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/hutool-all-4.0.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/jackson-core-2.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/jackson-databind-2.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/jackson-datatype-jdk8-2.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/jackson-datatype-jsr310-2.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/jackson-module-parameter-names-2.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/log4j-api-2.10.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/log4j-to-slf4j-2.10.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/logback-classic-1.2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/logback-core-1.2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/lombok-1.16.18.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/snakeyaml-1.19.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-boot-2.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-boot-autoconfigure-2.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-boot-starter-2.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-boot-starter-json-2.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-boot-starter-logging-2.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-boot-starter-tomcat-2.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-boot-starter-web-2.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-jcl-5.0.7.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-web-5.0.7.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/spring-webmvc-5.0.7.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/tomcat-embed-core-8.5.31.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/tomcat-embed-el-8.5.31.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/tomcat-embed-websocket-8.5.31.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trace-demo/target/trace-demo/index.jsp" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,87 +81,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InterceptorConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/interceptor/InterceptorConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/interceptor/LoginInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DaoLogAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/DaoLogAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="50" column="7" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="50" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebLogAspect.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/WebLogAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceLogAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/ServiceLogAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trace-demo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trace-demo/src/main/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="100">
+              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -144,12 +122,12 @@
         <option value="$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/interceptor/InterceptorConfiguration.java" />
         <option value="$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/utils/IdGen.java" />
         <option value="$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/trace-demo/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/trace-demo/pom.xml" />
         <option value="$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/ServiceLogAspect.java" />
         <option value="$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/DaoLogAspect.java" />
         <option value="$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/WebLogAspect.java" />
+        <option value="$PROJECT_DIR$/trace-demo/src/main/resources/logback.xml" />
       </list>
     </option>
   </component>
@@ -203,9 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,7 +308,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -537,12 +515,21 @@
       <updated>1539846994615</updated>
       <workItem from="1539847000814" duration="4348000" />
       <workItem from="1539851889086" duration="219000" />
-      <workItem from="1539852272611" duration="88000" />
+      <workItem from="1539852272611" duration="443000" />
+      <workItem from="1539853796443" duration="362000" />
     </task>
+    <task id="LOCAL-00001" summary="添加aop切面">
+      <created>1539852377051</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539852377051</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4655000" />
+    <option name="totallyTimeSpent" value="5372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -559,8 +546,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46178687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46178687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36167923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -578,7 +566,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3623656" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -589,11 +576,85 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加aop切面" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加aop切面" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/interceptor/InterceptorConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/DaoLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="50" column="7" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="50" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/ServiceLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace-demo/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/WebLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/interceptor/InterceptorConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -665,14 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trace-demo/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/interceptor/InterceptorConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -683,7 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/interceptor/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
+        <state relative-caret-position="925">
           <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="20" />
           <folding />
         </state>
@@ -691,7 +744,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="1275">
           <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
           <folding />
         </state>
@@ -702,7 +755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trace-demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
+        <state relative-caret-position="1100">
           <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
           <folding />
         </state>
@@ -713,24 +766,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/DaoLogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="50" column="7" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="50" selection-end-column="7" />
+        <state relative-caret-position="1025">
+          <caret line="50" column="7" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="50" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/ServiceLogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        <state relative-caret-position="450">
+          <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trace-demo/src/main/java/com/xiao/aop/WebLogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="275">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace-demo/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>

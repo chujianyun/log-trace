@@ -8,7 +8,7 @@
 
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%d{yy-MM-dd.HH:mm:ss.SSS} [%X{traceId}] [%-16t] %-5p %-22c{0}  %X{ServiceId} - %m%n</pattern>
+            <pattern>%d{yy-MM-dd.HH:mm:ss.SSS} [%-16t] %-5p %-22c{0}  %X{ServiceId} [%X{traceId}] - %m%n</pattern>
         </encoder>
     </appender>
 
@@ -17,7 +17,7 @@
             <fileNamePattern>${log.path}/logback.%d{yyyy-MM-dd}.log</fileNamePattern>
         </rollingPolicy>
         <encoder>
-            <pattern>%d{yy-MM-dd.HH:mm:ss.SSS} [%X{traceId}] [%-16t] %-5p %-22c{0}  %X{ServiceId} - %m%n</pattern>
+            <pattern>%d{yy-MM-dd.HH:mm:ss.SSS} [%-16t] %-5p %-22c{0}  %X{ServiceId} [%X{traceId}] - %m%n</pattern>
         </encoder>
     </appender>
 
