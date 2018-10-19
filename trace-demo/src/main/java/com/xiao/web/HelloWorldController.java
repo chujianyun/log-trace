@@ -1,10 +1,14 @@
 package com.xiao.web;
 
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.MDC;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by sunjinwei on 2018/1/4.
@@ -23,9 +27,12 @@ public class HelloWorldController {
      */
     @RequestMapping(value = "/welcome", method = RequestMethod.GET)
     @ResponseBody
-    public String welcome() {
+    public Map<String, Object> welcome() {
+        Map<String, Object> map = new HashMap<>();
+        map.put("traceId", MDC.get("traceId"));
         log.info("### welcome:{}", "123");
-        return "success";
+
+        return map;
     }
 
 

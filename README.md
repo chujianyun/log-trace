@@ -19,3 +19,17 @@
     </encoder>
 </appender>
 ```
+
+- 3、程序中获取 traceId 参数
+
+```
+@RequestMapping(value = "/welcome", method = RequestMethod.GET)
+@ResponseBody
+public Map<String, Object> welcome() {
+    Map<String, Object> map = new HashMap<>();
+    map.put("traceId", MDC.get("traceId"));
+    log.info("### welcome:{}", "123");
+
+    return map;
+}
+```
